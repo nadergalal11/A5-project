@@ -1,0 +1,41 @@
+/* big tablets that is more than 1140 widith pixel */ 
+@media only screen and (max-width:1200px){
+    .hero-text {
+    width: 100%;
+    padding: 0 2%;
+}  
+    .row {
+        padding: 0 2%;
+    }  
+        .contact-form {width: 100%;}
+}
+/* small phones to tablets from 768 to 1023 */
+@media only screen and (max-width:1023px){
+    body{font-size:17px;
+    }
+    section {padding: 60px 0;}
+    .btn-app img {margin-right:5px; }
+    .steps-box:last-child {margin-top:0}
+    .works-step{margin-bottom: 25px;}
+    .steps-box:first-child {margin-top: 17px;
+    text-align: center;}
+    .contact-form {width: 100%;}
+}
+/* small phones to tablets from 480 to 767 */
+@media only screen and (max-width:767px){
+    body {font-size: 16px;}
+    section{padding: 30px 0;}
+    row,hero-text{padding 0 4%;}
+    .col {width: 100%;}
+    .long-copy {width: 100%;
+    margin-left:0;
+    text-align: center;}
+    .big-icons md hydrated {text-align: center;
+    margin-left: 50px;}
+    
+}
+/* small screen  mobiles from  0 to 480 */
+@media only screen and (max-width:480px){
+     
+}
+
